@@ -1,6 +1,6 @@
 {
     "python.testing.pytestArgs": [
-        "reverse-string"
+        "isogram"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
