@@ -1,6 +1,6 @@
 {
     "python.testing.pytestArgs": [
-        "high-scores"
+        "raindrops"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
