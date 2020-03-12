@@ -1,6 +1,6 @@
 {
     "python.testing.pytestArgs": [
-        "two-fer"
+        "high-scores"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
