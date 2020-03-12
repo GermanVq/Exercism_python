@@ -1,6 +1,6 @@
 {
     "python.testing.pytestArgs": [
-        "raindrops"
+        "scrabble-score"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
