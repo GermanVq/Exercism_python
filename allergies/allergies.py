@@ -2,7 +2,7 @@ class Allergies:
 
     def __init__(self, score):
         self.score = score
-        self.table = dict(eggs=(1), 
+        self.allergies_dict = dict(eggs=(1), 
                           peanuts=(2), 
                           shellfish=(4), 
                           strawberries=(8), 
@@ -13,9 +13,9 @@ class Allergies:
                           )
 
     def allergic_to(self, item):
-         return self.score & self.table[item] > 0
+         return self.score & self.allergies_dict[item] > 0
      
     @property
     def lst(self):
-        return [s for s, i in self.table.items() 
+        return [s for s, i in self.allergies_dict.items() 
                 if i & self.score > 0]
