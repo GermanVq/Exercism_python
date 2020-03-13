@@ -1,6 +1,6 @@
 {
     "python.testing.pytestArgs": [
-        "list-ops"
+        "series"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
