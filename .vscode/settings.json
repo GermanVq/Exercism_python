@@ -1,6 +1,6 @@
 {
     "python.testing.pytestArgs": [
-        "grains"
+        "resistor-color"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
